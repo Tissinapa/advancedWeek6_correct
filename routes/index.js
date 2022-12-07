@@ -15,5 +15,5 @@ router.get("/secret", function (req, res, next) {
 });
 router.get("/production", function ( req, res, next){
   res.json({branch: "This is a production branch"});
-})
+});
 module.exports = router;
